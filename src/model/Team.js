@@ -6,6 +6,21 @@ const TeamSchema = new mongoose.Schema({
         required: true
     }, 
 
+    wins: {
+        type: Number,
+        default: 0
+    },
+
+    draws: {
+        type: Number,
+        default: 0
+    },
+
+    loses: {
+        type: Number,
+        default: 0
+    },
+
     foundation: {
         type: Number, 
         required: true
