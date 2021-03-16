@@ -12,6 +12,11 @@ const PlayerSchema = new mongoose.Schema({
         required: false
     },
 
+    goals: {
+        type: Number,
+        default: 0,
+    },
+
     birth: {
         type: Date, 
         required: true
